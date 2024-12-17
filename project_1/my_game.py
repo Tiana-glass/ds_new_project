@@ -57,4 +57,7 @@ def score_game(game_core) -> int:
     print(f"Алгоритм угадывает число в среднем за: {score} попыток")
 
 print('Run benchmarking for game_core: ', end='')
-score_game(game_core)
+
+# RUN
+if __name__ == '__main__':
+    score_game(game_core)
